@@ -1,0 +1,346 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #efefef;
+}
+
+.App {
+  height: 100vh;
+
+}
+
+/*ProfileAccordion*/
+
+.accordion {
+  width: auto;
+  height: auto;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 3px;
+  padding: 0 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  right: 28%;
+  background-color: #fff;
+}
+
+.profileAccordion,
+.exitAccordion {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.profileAccordion {
+  margin-top: 25px;
+}
+
+.commonAccordion {
+  display: flex;
+}
+
+.profileName {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 0 0 5px;
+}
+
+/*Login*/
+
+.login {
+  justify-content: flex-end;
+  padding: 20px 0;
+  color: dodgerblue;
+  display: flex;
+}
+
+.come,
+.registration {
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.come:hover,
+.registration:hover {
+  color: darkblue;
+  transition: 0.3s;
+}
+
+/*City*/
+
+.commonCity {
+  position: absolute;
+  top: 10%;
+  left: 28%;
+  display: flex;
+}
+
+.city {
+  width: auto;
+  height: auto;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 3px;
+  margin-left: 15px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+/*AddressForm*/
+
+.addressForm .makeStyles-paper-7 {
+  margin-top: 90px !important;
+}
+
+ .MuiTypography-alignCenter {
+  margin-bottom: 20px !important;
+}
+
+ .MuiOutlinedInput-input {
+  width: 225px !important;
+}
+
+ .MuiInputBase-input:invalid {
+  opacity: 0.6;
+}
+
+ .MuiSelect-outlined.MuiSelect-outlined {
+  width: 210px !important;
+}
+
+ .MuiTypography-alignCenter {
+  margin-bottom: 30px;
+}
+
+/*Directions*/
+
+.routers {
+  width: 600px;
+  margin: auto;
+}
+
+.add-route {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-icon {
+
+}
+
+/*Direction*/
+
+.route {
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px -1px #a5a5a5, 0 2px 2px 1px #efefef,
+    0 1px 3px 1px #efefef;
+  font-size: 19px;
+  display: flex;
+  background-color: #fff;
+  padding: 24px 24px 24px 10px;
+  margin: auto;
+  position: relative;
+}
+
+.from,
+.where,
+.transport,
+.sumKg,
+.departure,
+.sum,
+.comment,
+.weight,
+.arrival {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  margin: 20px;
+  padding: 18px 14px;
+  border-radius: 3px;
+  color: #999498;
+}
+
+.commonLeftCol,
+.commonRightCol {
+  width: 250px;
+}
+
+.comment {
+  width: 300px;
+  height: auto;
+  word-break: break-word;
+}
+
+.exit {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.common {
+  display: flex;
+}
+
+.route .MuiAccordion-rounded:last-child {
+  box-shadow: none;
+}
+
+.route .MuiAccordion-root.Mui-expanded:last-child {
+  width: 100%;
+  position: relative;
+}
+
+.route .MuiAccordionSummary-root.Mui-expanded {
+  margin-bottom: -50px;
+}
+
+.route .MuiButton-containedPrimary {
+  position: absolute;
+  right: 5px;
+  bottom: -5px;
+}
+
+/*Authorization*/
+
+.authorization {
+  width: 480px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 1px -1px #a5a5a5, 0 2px 2px 1px #efefef,
+    0 1px 3px 1px #efefef;
+}
+
+/*Registration*/
+
+.registration-user {
+  width: 480px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 1px -1px #a5a5a5, 0 2px 2px 1px #efefef,
+    0 1px 3px 1px #efefef;
+}
+
+/*SearchRoute*/
+
+.search-route {
+  width: 480px;
+  margin: auto;
+  padding: 20px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 1px -1px #a5a5a5, 0 2px 2px 1px #efefef,
+  0 1px 3px 1px #efefef;
+  border-radius: 5px;
+  /*box-shadow: ;*/
+}
+
+.search-route .MuiOutlinedInput-input {
+  width: 200px !important;
+}
+
+.search-route .MuiInputBase-input:invalid {
+  opacity: 0.6;
+}
+
+.block-routes {
+  margin: auto;
+  text-align: center;
+}
+
+.block-date {
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.button-search {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*ProfileUser*/
+
+.profile-user {
+  width: 480px;
+  height: 320px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px -1px #a5a5a5, 0 2px 2px 1px #efefef,
+  0 1px 3px 1px #efefef;
+}
+
+/*AvatarUser*/
+
+.avatar-user {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.user-name {
+  margin: 35px 0 0 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.edit {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.head-profile {
+  display: flex;
+}
+
+.date-of-birth,
+.city,
+.telephone,
+.email {
+  display: flex;
+  margin: 20px 30px 0 30px;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+
+/*EditProfileUser*/
+
+.edit-profile-user {
+  width: 600px;
+  margin: auto;
+  padding: 30px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px -1px #a5a5a5, 0 2px 2px 1px #efefef,
+  0 1px 3px 1px #efefef;
+}
+
+.info-block-up,
+.info-block-down {
+  display: flex;
+}
+
+.info-block-down {
+  margin: 0 0 0 145px;
+}
+
+.edit-name {
+  margin-left: 30px;
+}
+
+.edit-profile-user .MuiInputBase-root {
+  width: 130px;
+}
+
+.button-save {
+  margin: 20px 0 0 30px;
+}
